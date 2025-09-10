@@ -18,7 +18,7 @@ export function Projects() {
     {
       title: "devFinder",
       description: "A lightweight React + TypeScript application that allows users to search GitHub profiles and view key information such as repositories, followers, following, and stats. Built with a clean UI and conditional rendering for a smooth user experience.",
-      image: "../../public/image/devFinder.png",
+      image: "/image/devFinder.png",
       technologies: ["React", "Typescript", "TailwindCSS"],
       liveUrl: "https://github-search-green.vercel.app/",
       githubUrl: "https://github.com/vickcodes001/Github-search.git",
