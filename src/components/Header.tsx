@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import { Button } from './ui/button';
+import profilePicture  from "../../public/image/profile-pic.jpg"
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -17,7 +18,16 @@ export function Header() {
     <header className="fixed top-0 left-0 right-0 bg-background/90 backdrop-blur-sm border-b border-border z-50">
       <div className="max-w-6xl mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <div className="font-semibold">Victor Okoro</div>
+          <div className="flex gap-2">
+            <div className="h-[40px] w-[40px] object-cover p-2 bg-black rounded border">
+              {/* <img
+                src={profilePicture}
+                alt="profile picture"
+                className="rounded-2xl h-[40px] w-[40px]"
+              /> */}
+            </div>
+            <div className="font-semibold">Victor Okoro</div>
+          </div>
           
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
