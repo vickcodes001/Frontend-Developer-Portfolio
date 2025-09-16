@@ -47,7 +47,7 @@
       --tw-sepia: initial;
       --tw-drop-shadow: initial;
       --tw-drop-shadow-color: initial;
-      --tw-drop-shadow-alpha: 100%;
+      /* Minimal custom CSS for Frontend Developer Portfolio */
       --tw-drop-shadow-size: initial;
       --tw-backdrop-blur: initial;
       --tw-backdrop-brightness: initial;
@@ -235,8 +235,8 @@
   }
 
   img, video {
-    max-width: 100%;
-    height: auto;
+    /* max-width: 100%; */
+    /* height: auto; */
   }
 
   button, input, select, optgroup, textarea {
@@ -4184,34 +4184,34 @@
   }
 
   .\[\&\>svg\]\:size-3 > svg {
-    width: calc(var(--spacing) * 3);
-    height: calc(var(--spacing) * 3);
+    /* width: calc(var(--spacing) * 3); */
+    /* height: calc(var(--spacing) * 3); */
   }
 
   .\[\&\>svg\]\:size-3\.5 > svg {
-    width: calc(var(--spacing) * 3.5);
-    height: calc(var(--spacing) * 3.5);
+    /* width: calc(var(--spacing) * 3.5); */
+    /* height: calc(var(--spacing) * 3.5); */
   }
 
   .\[\&\>svg\]\:size-4 > svg {
-    width: calc(var(--spacing) * 4);
-    height: calc(var(--spacing) * 4);
+    /* width: calc(var(--spacing) * 4); */
+    /* height: calc(var(--spacing) * 4); */
   }
 
   .\[\&\>svg\]\:h-2\.5 > svg {
-    height: calc(var(--spacing) * 2.5);
+    /* height: calc(var(--spacing) * 2.5); */
   }
 
   .\[\&\>svg\]\:h-3 > svg {
-    height: calc(var(--spacing) * 3);
+    /* height: calc(var(--spacing) * 3); */
   }
 
   .\[\&\>svg\]\:w-2\.5 > svg {
-    width: calc(var(--spacing) * 2.5);
+    /* width: calc(var(--spacing) * 2.5); */
   }
 
   .\[\&\>svg\]\:w-3 > svg {
-    width: calc(var(--spacing) * 3);
+    /* width: calc(var(--spacing) * 3); */
   }
 
   .\[\&\>svg\]\:shrink-0 > svg {
